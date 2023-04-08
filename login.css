@@ -1,0 +1,71 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    font-family:sans-serif;
+}
+
+body{
+   background-image: url("images/image1.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.login-form{
+    margin-top: 100px;
+    color: #000000;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.login-form h1{
+    font-size: 32px;
+    font-family : Montserrat;
+
+}
+
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out ;
+}
+
+.login-card{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #990000;
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-family : Montserrat;
+
+}
+
+
+input{
+    height: 45px;
+}
+
+
+form .login-submit{
+	color: #000000;
+	text-decoration: none;
+	font-size: larger;
+    font-weight:bold;
+	display : inline-block;
+	font-family : Montserrat;
+	text-transform : uppercase;
+	padding : 0.5em 2em;
+	border : 2px solid; 
+}
+
+form .login-submit:hover{
+    background: #9b9b9b;
+    cursor: pointer;
+}
+
+form a{
+    padding-top: 2rem;
+}
+

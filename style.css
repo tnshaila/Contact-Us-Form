@@ -1,0 +1,74 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    font-family:sans-serif;
+}
+
+body{
+   background-image: url("images/image1.jpg");
+   background-color: #000000;
+    background-size: cover;
+    text-align: center;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(101, 224, 255);
+    }
+  }
+.contact-form{
+    margin-top: 100px;
+    color: #0a0a0a;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-form h1{
+    font-size: 32px;
+    font-family : Montserrat;
+
+}
+
+
+form{
+    margin-top: 50px;
+    transition: all 2s ease-in-out ;
+    text-shadow: #000000;
+}
+::placeholder { color: rgb(39, 37, 37);
+    opacity: .7;
+  }
+
+.form-card{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1278b7;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-family : Montserrat;
+
+}
+
+input{
+    height: 45px;
+}
+
+
+form .form-submit{
+	color: #000000;
+	text-decoration: none;
+	font-size: larger;
+    font-weight:bold;
+	display : inline-block;
+	font-family : Montserrat;
+	text-transform : uppercase;
+	padding : 0.5em 2em;
+}
+
+form .form-submit:hover{
+    background:#1257b7;
+    cursor: pointer;
+}
+
